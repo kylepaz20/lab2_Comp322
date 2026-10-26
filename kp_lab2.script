@@ -1,0 +1,105 @@
+Script started on Sun Oct 25 14:25:20 2026
+[1m[7m%[27m[1m[0m                                                                           [0m[27m[24m[Jkylepaz@Mac lab2 % [K[?2004hggcc lab2.c -o lab2[?2004l
+[1m[7m%[27m[1m[0m                                                                           [0m[27m[24m[Jkylepaz@Mac lab2 % [K[?2004h../lka  ab2[?2004l
+
+
+Choices: 
+1) Enter parameters
+2) Schedule processes with FIFO algorithm
+3) Schedule processes with SJF algorithm
+4) Schedule processes with SRT algorithm
+5) Quit and free memory
+
+Enter selection: 
+1
+Enter total number of processes: 
+3
+Enter arrival cycle for process 1:
+0
+Enter total cycle for process 1:
+6
+Enter arrival cycle for process 2:
+1
+Enter total cycle for process 2:
+3
+Enter arrival cycle for process 3:
+3
+Enter total cycle for process 3:
+2
+
+
+PID     Arrival     Total       Start       End       Turnaround      
+--------------------------------------------------------------------
+1        0             6           0            0               0                   
+2        1             3           0            0               0                   
+3        3             2           0            0               0                   
+
+
+Choices: 
+1) Enter parameters
+2) Schedule processes with FIFO algorithm
+3) Schedule processes with SJF algorithm
+4) Schedule processes with SRT algorithm
+5) Quit and free memory
+
+Enter selection: 
+2
+
+
+PID     Arrival     Total       Start       End       Turnaround      
+--------------------------------------------------------------------
+1        0             6           0            6               6                   
+2        1             3           6            9               8                   
+3        3             2           9            11              8                   
+
+
+Choices: 
+1) Enter parameters
+2) Schedule processes with FIFO algorithm
+3) Schedule processes with SJF algorithm
+4) Schedule processes with SRT algorithm
+5) Quit and free memory
+
+Enter selection: 
+3
+
+
+PID     Arrival     Total       Start       End       Turnaround      
+--------------------------------------------------------------------
+1        0             6           0            6               6                   
+2        1             3           8            11              10                  
+3        3             2           6            8               5                   
+
+
+Choices: 
+1) Enter parameters
+2) Schedule processes with FIFO algorithm
+3) Schedule processes with SJF algorithm
+4) Schedule processes with SRT algorithm
+5) Quit and free memory
+
+Enter selection: 
+4
+
+
+PID     Arrival     Total       Start       End       Turnaround      
+--------------------------------------------------------------------
+1        0             6           0            11              11                  
+2        1             3           1            4               3                   
+3        3             2           4            6               3                   
+
+
+Choices: 
+1) Enter parameters
+2) Schedule processes with FIFO algorithm
+3) Schedule processes with SJF algorithm
+4) Schedule processes with SRT algorithm
+5) Quit and free memory
+
+Enter selection: 
+5
+Quitting program[1m[7m%[27m[1m[0m                                                                           [0m[27m[24m[Jkylepaz@Mac lab2 % [K[?2004h../lab2 < fcfs.txt[?2004l
+exzsh: killed     ./lab2 < fcfs.txt
+[1m[7m%[27m[1m[0m                                                                           [0m[27m[24m[Jkylepaz@Mac lab2 % [K[?2004heexit[?2004l
+
+Script done on Sun Oct 25 14:26:45 2026
